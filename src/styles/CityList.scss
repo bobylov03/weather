@@ -1,0 +1,35 @@
+.city-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+
+  input {
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    width: 250px;
+    font-size: 16px;
+  }
+
+  .city-list__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  button {
+    background-color: #28a745;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s ease;
+
+    &:hover {
+      background-color: #218838;
+    }
+  }
+}

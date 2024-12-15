@@ -1,0 +1,37 @@
+.city-card {
+  width: 250px;
+  margin: 15px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  border-radius: 10px;
+  transition: transform 0.3s, box-shadow 0.3s;
+
+  &.light {
+    background-color: #fff;
+    border: 1px solid #ddd;
+  }
+
+  &.dark {
+    background-color: #444;
+    color: #fff;
+    border: 1px solid #555;
+  }
+
+  &:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+  }
+
+  .MuiTypography-root {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+
+  .MuiButton-root {
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+    padding: 10px;
+  }
+}

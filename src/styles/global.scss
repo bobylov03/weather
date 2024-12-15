@@ -1,0 +1,36 @@
+/* global.scss */
+
+/* Базовые стили */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Светлая тема */
+body.light {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+/* Темная тема */
+body.dark {
+  background-color: #2c2c2c;
+  color: #e0e0e0;
+}
+
+/* Стили для кнопки переключения темы */
+button.theme-toggler {
+  cursor: pointer;
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  border: none;
+}
+
+button.theme-toggler:hover {
+  background-color: #0056b3;
+}
